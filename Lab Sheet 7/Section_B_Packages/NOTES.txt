@@ -1,0 +1,12 @@
+Section B: Packages
+Each Q folder is an independent mini-project. Compile from that question folder's root.
+For most package examples:
+  javac path/to/package/Class.java Main.java
+  java Main
+Q4 has a package-qualified main class:
+  javac company/employees/Employee.java company/main/Main.java
+  java company.main.Main
+Q10:
+  javac -d . college/students/Student.java college/students/Main.java
+  java college.students.Main
+Access modifiers: public is broadly accessible; protected is accessible within the package and through subclass rules; default is package-private; private is within the declaring class.

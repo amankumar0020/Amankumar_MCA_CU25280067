@@ -1,0 +1,6 @@
+Section C: Multithreading
+Compile any individual file using javac Q1.java and run with java Q1.
+Q3: Java represents both ready and executing threads as RUNNABLE; RUNNING is not a separate Thread.State value. BLOCKED requires contention for a monitor lock, so this short demo does not guarantee that state.
+Q5: Thread priorities are scheduling hints; they do not guarantee execution order.
+Q8: count++ is not atomic, so lost updates may occur, though a run may occasionally show the expected value.
+Q9: synchronized protects the shared counter from concurrent updates.

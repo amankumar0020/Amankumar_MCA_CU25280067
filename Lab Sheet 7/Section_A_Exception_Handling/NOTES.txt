@@ -1,0 +1,11 @@
+Section A: Exception Handling
+Q1: finally runs whether an exception occurs or not.
+Q2: Valid array indexes are 0 through 4.
+Q3: NumberFormatException handles non-integer strings; ArithmeticException handles division by zero.
+Q4: The outer division fails first, so the inner try block is not reached with the provided values.
+Q5: finally runs after try/catch in normal exception handling.
+Q6: throw explicitly throws an exception.
+Q7: InvalidPasswordException is a checked user-defined exception.
+Q8: throws declares possible exceptions for the caller to handle.
+Q9: finally executes before the method completes its return.
+Q10: InsufficientFundsException is user-defined; IllegalArgumentException is built-in.
